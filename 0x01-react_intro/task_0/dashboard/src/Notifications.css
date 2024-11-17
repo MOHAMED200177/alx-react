@@ -1,0 +1,16 @@
+.notifications {
+    margin: 10px;
+}
+
+.Notifications ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li[data-priority="default"] {
+    color: blue;
+}
+
+li[data-priority="urgent"] {
+    color: red;
+}

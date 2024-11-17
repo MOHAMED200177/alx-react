@@ -1,0 +1,62 @@
+:root {
+  --headred: #e1484c;
+}
+
+body {
+  margin: 0 auto;
+
+}
+
+.App {
+  position: relative;
+  min-height: 100vh;
+}
+
+.App-header {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  border-bottom: 3px solid var(--headred);
+}
+
+.App-header h1 {
+  margin: auto auto auto 0;
+  font-weight: bold;
+  color: var(--headred);
+}
+
+.App-body p {
+  font-weight: bold;
+  margin: 47px 0 0 31px;
+}
+
+form {
+  margin: 10px auto;
+}
+
+label {
+  margin: 0 10px 0 30px;
+  font-size: larger;
+  font-weight: bold;
+}
+
+button {
+  margin: 0 10px 0 10px;
+}
+
+
+.App-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.App-footer p {
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+  border-top: 3px solid var(--headred);
+  padding: 17px 0;
+}
